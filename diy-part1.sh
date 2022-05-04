@@ -12,6 +12,8 @@
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+
+# 开启内核分区读写
 sed -i '/read-only/d' target/linux/ipq40xx/files/arch/arm/boot/dts/qcom-ipq4019-c526a.dts
 
 # Add a feed source
