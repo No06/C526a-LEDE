@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build R22.5.5
+name: Build Latest
 
 on:
   repository_dispatch:
